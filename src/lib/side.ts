@@ -1,4 +1,4 @@
-import { Where } from ".";
+import { Where } from "./types";
 
 export class Side {
   // tslint because of !

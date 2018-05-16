@@ -1,4 +1,6 @@
-import { AppEnv, Env, Side, SrvEnv, Where } from ".";
+import { Env } from "./env";
+import { Side } from "./side";
+import { AppEnv, SrvEnv, Where } from "./types";
 
 export class ObjectFactory {
   public newEnv(srvEnv: SrvEnv, appEnv: AppEnv) {

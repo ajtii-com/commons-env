@@ -1,5 +1,5 @@
 import { newLogicError } from "@ajtii/commons-error";
-import { AppEnv, SrvEnv } from ".";
+import { AppEnv, SrvEnv } from "./types";
 
 export class Env {
   // tslint because of !
